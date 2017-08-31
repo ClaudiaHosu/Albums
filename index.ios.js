@@ -31,8 +31,6 @@ export default class albums extends Component {
   }
 }
 
-<!-- -->
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

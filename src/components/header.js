@@ -1,12 +1,11 @@
-
-
+/* @flow */
 //import libraries for making a Component
 import React from 'react';
 import { Text, View } from 'react-native';
 
 //Make a Component
 
-const Header = (props) => {
+const Header = (props: {headerText: String}) => {
   const { textStyle, viewStyle } = styles;
 
   return (
